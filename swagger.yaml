@@ -1,0 +1,33 @@
+swagger: '2.0'
+info:
+  description: Servidor para apresentação
+  version: 1.0.0
+  title: Backend de Imagens
+  termsOfService: http://swagger.io/terms/
+  contact:
+    email: julian.gamboa.ms.2021@gmail.com
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+host: 'docker-2-julian.herokuapp.com/'
+tags:
+  - name: Exemplo de "NodeJS e Angular"
+    description: Integrando Front-End BackEND
+    externalDocs:
+      description: Github
+      url: https://github.com/julian-gamboa-ensino
+schemes:
+  - http
+paths:
+  /lista_pastas:
+    get:
+      tags:
+        - Endpoint para o "front-end" feito em Angular
+      summary: Apresenta as pastas que foram criadas na pasta de 'etiquetas'
+      description: 'Apresenta as pastas que foram criadas na pasta de "etiquetas" 
+      entregando uma lista JSON' 
+      produces:
+        - application/json
+      responses:
+        '202':
+          description: Ok
