@@ -499,7 +499,7 @@
     /***/
     function _(module, exports, __webpack_require__) {
       __webpack_require__(
-      /*! /home/julian/Desktop/heroku/gestor_fotos/maquina-antiga/node_modules/@angular-devkit/build-angular/src/webpack/es5-polyfills.js */
+      /*! /home/julian/Desktop/heroku/aula-docker-heroku-2022/maquina-antiga/node_modules/@angular-devkit/build-angular/src/webpack/es5-polyfills.js */
       "voQr");
 
       __webpack_require__(
@@ -507,7 +507,7 @@
       "R0gw");
 
       module.exports = __webpack_require__(
-      /*! /home/julian/Desktop/heroku/gestor_fotos/maquina-antiga/src/polyfills.ts */
+      /*! /home/julian/Desktop/heroku/aula-docker-heroku-2022/maquina-antiga/src/polyfills.ts */
       "hN/g");
       /***/
     },
